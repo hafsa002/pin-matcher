@@ -3,6 +3,7 @@
         const errorMsg = document.getElementById("tryAgain");
         errorMsg.style.display = "none";
 
+        //generating random pin 
         const pinGenerator = document.getElementById("pinGenerator");
         pinGenerator.addEventListener("click", function(){
              var pin = (Math.floor(Math.random() * 1000) + 999);
